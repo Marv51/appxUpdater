@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+    xmlns="http://schemas.microsoft.com/appx/appinstaller/2017"
+    Version="1.0.0.0" 
+    Uri="https://testingappxupdater.s3.amazonaws.com/testapp.appinstaller" > 
+
+    <MainPackage 
+        Name="43c4d2e4-3a53-459f-a810-47f95653ecfa"
+        Publisher="CN=Marvin Rühe, O=Marvin Rühe, L=Eichstetten, C=DE"
+        Version="1.0.0.0"
+        Uri="https://testingappxupdater.s3.amazonaws.com/AppXUpdaterPackager_1.0.0.0_AnyCPU.appxbundle" />
+
+    <UpdateSettings>
+        <OnLaunch/>
+    </UpdateSettings>
+</AppInstaller>
